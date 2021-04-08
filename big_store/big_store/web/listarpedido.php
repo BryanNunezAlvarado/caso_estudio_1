@@ -1,7 +1,6 @@
 <?php
     //conexion
 	$conexion=mysqli_connect('localhost','root','','tienda');
-
  ?>
 <!DOCTYPE html>
 <html>
@@ -20,6 +19,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- js -->
+
    <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
 <!-- start-smoth-scrolling -->
