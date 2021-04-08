@@ -35,6 +35,7 @@ $sqlgrabar = "INSERT INTO login(Username,Email,Password) values('$username','$em
     }
 
 }
+//buscar
 $titulo = $_POST["buscar"];
 $titulo = strtolower($titulo);
 if(isset($_POST["buscar"])){
