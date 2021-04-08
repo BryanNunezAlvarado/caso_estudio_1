@@ -201,6 +201,7 @@
       );
     }
 
+
     var drawTable = function(){
       var $cartTable = $("#" + idCartTable);
       $cartTable.empty();
@@ -220,6 +221,7 @@
         );
       });
 
+
       $cartTable.append(products.length ?
         '<tr>' +
         '<td></td>' +
@@ -231,6 +233,7 @@
         '</tr>'
         : '<div class="alert alert-danger" role="alert" id="' + idEmptyCartMessage + '">Tu carrito esta vacio</div>'
       );
+
 
       var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
       if(products.length && discountPrice !== null) {
@@ -246,6 +249,7 @@
         );
       }
 
+
       showGrandTotal();
       showDiscountPrice();
     }
@@ -259,12 +263,14 @@
         ProductManager.updatePoduct(id, $(this).val());
       });
     }
+
     var showGrandTotal = function(){
       $("#" + idGrandTotal).text("$" + ProductManager.getTotalPrice());
     }
     var showDiscountPrice = function(){
       $("#" + idDiscountPrice).text("$" + options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity()));
     }
+
 
     /*
     EVENT
@@ -280,6 +286,7 @@
         }
       });
     }
+
 
     $cartIcon.click(function(){
       options.showCheckoutModal ? showModal() : options.clickOnCartIcon($cartIcon, ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
@@ -297,6 +304,7 @@
       showGrandTotal();
       showDiscountPrice();
     });
+    
 
     $(document).on('keypress', "." + classProductQuantity, function(evt){
       if(evt.keyCode == 38 || evt.keyCode == 40){
