@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BL BOOK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta property="og:title" content="Vide"/>
+    <meta name="keywords" content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jstarbox.js"></script>
+    <link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8"/>
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery('.starbox').each(function () {
+                var starbox = jQuery(this);
+                starbox.starbox({
+                    average: starbox.attr('data-start-value'),
+                    changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
+                    ghosting: starbox.hasClass('ghosting'),
+                    autoUpdateAverage: starbox.hasClass('autoupdate'),
+                    buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
+                    stars: starbox.attr('data-star-count') || 5
+                }).bind('starbox-value-changed', function (event, value) {
+                    if (starbox.hasClass('random')) {
+                        var val = Math.random();
+                        starbox.next().text(' ' + val);
+                        return val;
+                    }
+                })
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="header">
+
+    <div class="container">
+
+        <div class="logo">
+            <h1><a href="principal.html"><b>T<br>H<br>E</b>BL BOOK<span>LA MEJOR TIENDA DE LIBROS</span></a></h1>
+        </div>
+        <div class="head-t">
+            <ul class="card">
+                <li><a href="wishlist.html"><i class="fa fa-heart" aria-hidden="true"></i>Recomendados</a></li>
+                <li><a href="index.html"><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+                <li><a href="register.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Registro</a></li>
+            </ul>
+        </div>
+        <div class="nav-top">
+            <nav class="navbar navbar-default">
+
+                <div class="navbar-header nav_2">
+                    <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse"
+                            data-target="#bs-megadropdown-tabs">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+
+                </div>
+                <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+                    <ul class="nav navbar-nav ">
+                        <li class=" active"><a href="principal.html" class="hyper "><span>Inicio</span></a></li>
+                        <li><a href="contact.html" class="hyper"><span>Contacto</span></a></li>
+                        <li><a href="libro.html" class="hyper"><span>Añadir libro</span></a></li>
+                        <li><a href="eliminar.html" class="hyper"><span></span>Eliminar libro </a></li>
+                        <li><a href="listar.php" class="hyper"><span></span>Listar proximos Titulos</a></li>
+                        <li><a href="listarpedido.php" class="hyper"><span></span>Listar Pedidos</a></li>
+
+
+                    </ul>
+                </div>
+            </nav>
+            <div class="cart">
+
+                <span class="fa fa-shopping-cart my-cart-icon"><span
+                        class="badge badge-notify my-cart-badge"></span></span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+<div data-vide-bg="video/video">
+    <div class="container">
+        <div class="banner-info">
+            <h3>“Un lector vive mil vidas antes de morir. Aquel que nunca lee vive solo una.”
+            </h3>
+            <div class="search-form">
+                <form action="login_registro.php" method="post">
+                    <input type="text" placeholder="Buscar..." name="buscar">
+                    <input type="submit" value=" ">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+<script src="js/jquery.vide.min.js"></script>
+<div class="content-top ">
+    <div class="container ">
+        <div class="spec ">
+            <h3>Categorias</h3>
+            <div class="ser-t">
+                <b></b>
+                <span><i></i></span>
+                <b class="line"></b>
+            </div>
+        </div>
+        <div class="tab-head ">
+            <nav class="nav-sidebar">
+                <ul class="nav tabs ">
+                    <li class="active"><a href="#tab1" data-toggle="tab">Terror</a></li>
+                    <li class=""><a href="#tab2" data-toggle="tab">Drama</a></li>
+                    <li class=""><a href="#tab3" data-toggle="tab">Ciencia Ficcion</a></li>
+                    <li class=""><a href="#tab4" data-toggle="tab">Romance</a></li>
+                </ul>
+            </nav>
+            <div class=" tab-content tab-content-t ">
+                <div class="tab-pane active text-style" id="tab1">
+                    <div class=" con-w3l">
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+                                    <img src="images/dracula.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Dracula<br>
+                                            Novela de Bram Stoker<br/></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$195.99</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1"
+                                                data-name="dracula" data-summary="summary 1" data-price="195.99"
+                                                data-quantity="1" data-image="images/dracula.png">Añadir al carrito
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+                                    <img src="images/it.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a></a>It<br>
+                                            Novela de Stephen King</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$199.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="2" data-name="It"
+                                                data-summary="summary 2" data-price="199.00" data-quantity="1"
+                                                data-image="images/it.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+                                    <img src="images/leyenda.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Soy Leyenda</a><br>Novela de Richard Matheson</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$250.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="3"
+                                                data-name="Soy Leyenda" data-summary="summary 3" data-price="250.00"
+                                                data-quantity="1" data-image="images/leyenda.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+                                    <img src="images/han.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Hannibal</a><br>Novela de Thomas Harris
+                                            </br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$350.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="4"
+                                                data-name="Hannibal" data-summary="summary 4" data-price="350.00"
+                                                data-quantity="1" data-image="images/han.png">Añadir al carrito
+                                        </button>
+                                        <br></br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+                                    <img src="images/resplandor.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>El Resplandor<br>
+                                            Novela de Stephen King
+                                            <br/></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$195.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b " data-id="5"
+                                                data-name="resplandor" data-summary="summary 5" data-price="195.99"
+                                                data-quantity="1" data-image="images/resplandor.png">Añadir al carrito
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pro-1">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+                                    <img src="images/exo.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>El Exorcista<br>
+                                            Novela de William Peter Blatty
+                                            <br/></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$250.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b " data-id="6"
+                                                data-name="exo" data-summary="summary 6" data-price="250.00"
+                                                data-quantity="1" data-image="images/exo.png">Añadir al carrito
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pro-1">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+                                    <img src="images/casa.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>La casa infernal
+                                            <br>
+                                            Novela de Richard Matheson
+
+                                            <br/></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$350.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b " data-id="7"
+                                                data-name="casa" data-summary="summary 7" data-price="350.00"
+                                                data-quantity="1" data-image="images/casa.png">Añadir al carrito
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 pro-1">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+                                    <img src="images/asy.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Asylum
+                                            <br>
+                                            Novela de Madeleine Roux
+
+                                            <br/></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$150.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b " data-id="8"
+                                                data-name="asy" data-summary="summary 8" data-price="150.00"
+                                                data-quantity="1" data-image="images/asy.png">Añadir al carrito
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!-- LUISSSSSSSSSSSSSSSSSSSS-->
+
+                <div class="tab-pane  text-style" id="tab2">
+                    <div class=" con-w3l">
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+                                    <img src="images/amy.png" class="img-responsive" alt="">
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>La esposa del dios del fuego</a><br>Libro de Amy Tan</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$155.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="9" data-name="amy"
+                                                data-summary="summary 9" data-price="155.00" data-quantity="1"
+                                                data-image="images/amy.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+                                    <img src="images/silencio.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>El silencio de nuestras palabras</a><br>Libro de Simona Sparaco</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$170.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="10"
+                                                data-name="silencio" data-summary="summary 10" data-price="170.00"
+                                                data-quantity="1" data-image="images/silencio.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
+                                    <img src="images/sueños.png" class="img-responsive" alt="">
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Sueños de papel</a><br>Libro de María Amorós</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$100.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="11"
+                                                data-name="sueños" data-summary="summary 11" data-price="100.00"
+                                                data-quantity="1" data-image="images/sueños.png">Añadir a carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
+                                    <img src="images/justos.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Los justos</a><br>Libro de Albert Camus</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$350.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="12"
+                                                data-name="justos" data-summary="summary 12" data-price="350.00"
+                                                data-quantity="1" data-image="images/justos.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!-- Luisssssssssss-->
+                <div class="tab-pane  text-style" id="tab3">
+                    <div class=" con-w3l">
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal13" class="offer-img">
+                                    <img src="images/mundo.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Un mundo feliz</a><br>Novela de Aldous Huxley</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$150.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="13"
+                                                data-name="mundo" data-summary="summary 13" data-price="150.00"
+                                                data-quantity="1" data-image="images/mundo.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal14" class="offer-img">
+                                    <img src="images/451.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Fahrenheit 451</a><br>Novela de Ray Bradbury</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$270.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="14"
+                                                data-name="451" data-summary="summary 14" data-price="270.00"
+                                                data-quantity="1" data-image="images/451.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal15" class="offer-img">
+                                    <img src="images/tiempo.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>La máquina del tiempo</a><br>Novela de H. G. Wells</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$300.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="15"
+                                                data-name="tiempo" data-summary="summary 15" data-price="300.00"
+                                                data-quantity="1" data-image="images/tiempo.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal16" class="offer-img">
+                                    <img src="images/marte.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Marte rojo</a><br>Novela de Kim Stanley Robinson</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$350.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="16"
+                                                data-name="marte" data-summary="summary 16" data-price="350.00"
+                                                data-quantity="1" data-image="images/marte.png">Añadir al carro
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+
+                <!-- BRYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN-->
+
+
+                <div class="tab-pane text-style" id="tab4">
+                    <div class=" con-w3l">
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal17" class="offer-img">
+                                    <img src="images/cumbres.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Cumbres borrascosas</a><br>Novela de Emily Brontë</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$299.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="17"
+                                                data-name="cumbres" data-summary="summary 17" data-price="299.00"
+                                                data-quantity="1" data-image="images/cumbres.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m ">
+                                <a href="#" data-toggle="modal" data-target="#myModal18" class="offer-img">
+                                    <img src="images/orgullo.png" class="img-responsive" alt="">
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Orgullo y prejuicio</a> <br>Novela de Jane Austen</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$450.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="18"
+                                                data-name="orgullo" data-summary="summary 18" data-price="450.00"
+                                                data-quantity="1" data-image="images/orgullo.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m ">
+                                <a href="#" data-toggle="modal" data-target="#myModal19" class="offer-img">
+                                    <img src="images/estrella.png" class="img-responsive" alt="">
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Bajo la misma estrella</a><br> Novela de John Green</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$200.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="19"
+                                                data-name="estrella" data-summary="summary 19" data-price="200.00"
+                                                data-quantity="1" data-image="images/estrella.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="#myModal20" class="offer-img">
+                                    <img src="images/50.png" class="img-responsive" alt="">
+
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a>Cincuenta sombras de Grey</a><br> Novela de E. L. James</br></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <p><em class="item_price">$199.00</em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"></div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="20" data-name="50"
+                                                data-summary="summary 20" data-price="199.00" data-quantity="1"
+                                                data-image="images/50.png">Añadir al carrito
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Carousel
+  ================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide" src="images/r2.png" alt="First slide">
+
+        </div>
+        <div class="item">
+            <img class="second-slide " src="images/r.png" alt="Second slide">
+
+        </div>
+        <div class="item">
+            <img class="third-slide " src="images/r3.png" alt="Third slide">
+
+        </div>
+    </div>
+
+</div><!-- /.carousel -->
+
+<!--content-->
+<div class="product">
+    <div class="container">
+        <div class="spec ">
+            <h3>Todos los libros</h3>
+            <div class="ser-t">
+                <b></b>
+                <span><i></i></span>
+                <b class="line"></b>
+            </div>
+        </div>
+        <div class=" con-w3l">
+            <!--bryaaaaaaaaaaaaaaaaaaaaaaaaaan><-->
+            <div class="col-md-3 m-wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+                        <img src="images/dracula.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>Dracula<br>
+                                Novela de Bram Stoker<br/></a></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$195.99</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="dracula"
+                                    data-summary="summary 1" data-price="195.99" data-quantity="1"
+                                    data-image="images/dracula.png">Añadir al carrito
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 m-wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+                        <img src="images/it.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a></a>It<br>
+                                Novela de Stephen King</br></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$199.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="2" data-name="It"
+                                    data-summary="summary 2" data-price="199.00" data-quantity="1"
+                                    data-image="images/it.png">Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 m-wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+                        <img src="images/leyenda.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>Soy Leyenda</a><br>Novela de Richard Matheson</br></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$250.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="3" data-name="Soy Leyenda"
+                                    data-summary="summary 3" data-price="250.00" data-quantity="1"
+                                    data-image="images/leyenda.png">Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 m-wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+                        <img src="images/han.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>Hannibal</a><br>Novela de Thomas Harris
+                                </br></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$350.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="4" data-name="Hannibal"
+                                    data-summary="summary 4" data-price="350.00" data-quantity="1"
+                                    data-image="images/han.png">Añadir al carrito
+                            </button>
+                            <br></br>
+                            <br></br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+                        <img src="images/resplandor.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>El Resplandor<br>
+                                Novela de Stephen King
+                                <br/></a></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$195.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b " data-id="5" data-name="resplandor"
+                                    data-summary="summary 5" data-price="195.99" data-quantity="1"
+                                    data-image="images/resplandor.png">Añadir al carrito
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pro-1">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+                        <img src="images/exo.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>El Exorcista<br>
+                                Novela de William Peter Blatty
+                                <br/></a></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$250.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b " data-id="6" data-name="exo"
+                                    data-summary="summary 6" data-price="250.00" data-quantity="1"
+                                    data-image="images/exo.png">Añadir al carrito
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pro-1">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+                        <img src="images/casa.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>La casa infernal
+                                <br>
+                                Novela de Richard Matheson
+
+                                <br/></a></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$350.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b " data-id="7" data-name="casa"
+                                    data-summary="summary 7" data-price="350.00" data-quantity="1"
+                                    data-image="images/casa.png">Añadir al carrito
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pro-1">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+                        <img src="images/asy.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>Asylum
+                                <br>
+                                Novela de Madeleine Roux
+
+                                <br/></a></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$150.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b " data-id="8" data-name="asy"
+                                    data-summary="summary 8" data-price="310.00" data-quantity="1"
+                                    data-image="images/asy.png">Añadir al carrito
+                            </button>
+                        </div>
+                        <br></br><br></br>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="tab-pane  text-style" id="tab22">
+            <div class=" con-w3l">
+                <div class="col-md-3 m-wthree">
+                    <div class="col-m">
+                        <a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+                            <img src="images/amy.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="mid-1">
+                            <div class="women">
+                                <h6><a>La esposa del dios del fuego</a><br>Libro de Amy Tan</br></h6>
+                            </div>
+                            <div class="mid-2">
+                                <p><em class="item_price">$155.00</em></p>
+                                <div class="block">
+                                    <div class="starbox small ghosting"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="add">
+                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="9" data-name="amy"
+                                        data-summary="summary 9" data-price="155.00" data-quantity="1"
+                                        data-image="images/amy.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 m-wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+                        <img src="images/silencio.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>El silencio de nuestras palabras</a><br>Libro de Simona Sparaco</br></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$170.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="10" data-name="silencio"
+                                    data-summary="summary 10" data-price="170.00" data-quantity="1"
+                                    data-image="images/silencio.png">Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 m-wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
+                        <img src="images/sueños.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>Sueños de papel</a><br>Libro de María Amorós</br></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$100.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="11" data-name="sueños"
+                                    data-summary="summary 11" data-price="100.00" data-quantity="1"
+                                    data-image="images/sueños.png">Añadir a carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 m-wthree">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
+                        <img src="images/justos.png" class="img-responsive" alt="">
+
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a>Los justos</a><br>Libro de Albert Camus</br></h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><em class="item_price">$350.00</em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="12" data-name="justos"
+                                    data-summary="summary 12" data-price="350.00" data-quantity="1"
+                                    data-image="images/justos.png">Añadir al carrito
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <!-- Luisssssssssss-->
+        <div class="tab-pane  text-style" id="tab33">
+            <div class=" con-w3l">
+                <div class="col-md-3 m-wthree">
+                    <div class="col-m">
+                        <a href="#" data-toggle="modal" data-target="#myModal13" class="offer-img">
+                            <img src="images/mundo.png" class="img-responsive" alt="">
+
+                        </a>
+                        <div class="mid-1">
+                            <div class="women">
+                                <h6><a>Un mundo feliz</a><br>Novela de Aldous Huxley</br></h6>
+                            </div>
+                            <div class="mid-2">
+                                <p><em class="item_price">$150.00</em></p>
+                                <div class="block">
+                                    <div class="starbox small ghosting"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="add">
+                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="13" data-name="mundo"
+                                        data-summary="summary 13" data-price="150.00" data-quantity="1"
+                                        data-image="images/mundo.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 m-wthree">
+                    <div class="col-m">
+                        <a href="#" data-toggle="modal" data-target="#myModal14" class="offer-img">
+                            <img src="images/451.png" class="img-responsive" alt="">
+
+                        </a>
+                        <div class="mid-1">
+                            <div class="women">
+                                <h6><a>Fahrenheit 451</a><br>Novela de Ray Bradbury</br></h6>
+                            </div>
+                            <div class="mid-2">
+                                <p><em class="item_price">$270.00</em></p>
+                                <div class="block">
+                                    <div class="starbox small ghosting"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="add">
+                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="14" data-name="451"
+                                        data-summary="summary 14" data-price="270.00" data-quantity="1"
+                                        data-image="images/451.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-wthree">
+                    <div class="col-m">
+                        <a href="#" data-toggle="modal" data-target="#myModal15" class="offer-img">
+                            <img src="images/tiempo.png" class="img-responsive" alt="">
+
+                        </a>
+                        <div class="mid-1">
+                            <div class="women">
+                                <h6><a>La máquina del tiempo</a><br>Novela de H. G. Wells</br></h6>
+                            </div>
+                            <div class="mid-2">
+                                <p><em class="item_price">$300.00</em></p>
+                                <div class="block">
+                                    <div class="starbox small ghosting"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="add">
+                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="15" data-name="tiempo"
+                                        data-summary="summary 15" data-price="300.00" data-quantity="1"
+                                        data-image="images/tiempo.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-wthree">
+                    <div class="col-m">
+                        <a href="#" data-toggle="modal" data-target="#myModal16" class="offer-img">
+                            <img src="images/marte.png" class="img-responsive" alt="">
+
+                        </a>
+                        <div class="mid-1">
+                            <div class="women">
+                                <h6><a>Marte rojo</a><br>Novela de Kim Stanley Robinson</br></h6>
+                            </div>
+                            <div class="mid-2">
+                                <p><em class="item_price">$350.00</em></p>
+                                <div class="block">
+                                    <div class="starbox small ghosting"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="add">
+                                <button class="btn btn-danger my-cart-btn my-cart-b" data-id="16" data-name="marte"
+                                        data-summary="summary 16" data-price="350.00" data-quantity="1"
+                                        data-image="images/marte.png">Añadir al carro
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+            <!-- BRYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN-->
+
+
+            <div class="tab-pane text-style" id="tab44">
+                <div class=" con-w3l">
+                    <div class="col-md-3 m-wthree">
+                        <div class="col-m">
+                            <a href="#" data-toggle="modal" data-target="#myModal17" class="offer-img">
+                                <img src="images/cumbres.png" class="img-responsive" alt="">
+
+                            </a>
+                            <div class="mid-1">
+                                <div class="women">
+                                    <h6><a>Cumbres borrascosas</a><br>Novela de Emily Brontë</br></h6>
+                                </div>
+                                <div class="mid-2">
+                                    <p><em class="item_price">$299.00</em></p>
+                                    <div class="block">
+                                        <div class="starbox small ghosting"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="add">
+                                    <button class="btn btn-danger my-cart-btn my-cart-b" data-id="17"
+                                            data-name="cumbres" data-summary="summary 17" data-price="299.00"
+                                            data-quantity="1" data-image="images/cumbres.png">Añadir al carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 m-wthree">
+                        <div class="col-m ">
+                            <a href="#" data-toggle="modal" data-target="#myModal18" class="offer-img">
+                                <img src="images/orgullo.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="mid-1">
+                                <div class="women">
+                                    <h6><a>Orgullo y prejuicio</a><br>Novela de Jane Austen</br></h6>
+                                </div>
+                                <div class="mid-2">
+                                    <p><em class="item_price">$450.00</em></p>
+                                    <div class="block">
+                                        <div class="starbox small ghosting"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="add">
+                                    <button class="btn btn-danger my-cart-btn my-cart-b" data-id="18"
+                                            data-name="orgullo" data-summary="summary 18" data-price="450.00"
+                                            data-quantity="1" data-image="images/orgullo.png">Añadir al carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 m-wthree">
+                        <div class="col-m ">
+                            <a href="#" data-toggle="modal" data-target="#myModal19" class="offer-img">
+                                <img src="images/estrella.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="mid-1">
+                                <div class="women">
+                                    <h6><a>Bajo la misma estrella</a><br> Novela de John Green</br></h6>
+                                </div>
+                                <div class="mid-2">
+                                    <p><em class="item_price">$200.00</em></p>
+                                    <div class="block">
+                                        <div class="starbox small ghosting"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="add">
+                                    <button class="btn btn-danger my-cart-btn my-cart-b" data-id="19"
+                                            data-name="estrella" data-summary="summary 19" data-price="200.00"
+                                            data-quantity="1" data-image="images/estrella.png">Añadir al carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 m-wthree">
+                        <div class="col-m">
+                            <a href="#" data-toggle="modal" data-target="#myModal20" class="offer-img">
+                                <img src="images/50.png" class="img-responsive" alt="">
+
+                            </a>
+                            <div class="mid-1">
+                                <div class="women">
+                                    <h6><a>Cincuenta sombras de Grey</a><br> Novela de E. L. James</br></h6>
+                                </div>
+                                <div class="mid-2">
+                                    <p><em class="item_price">$199.00</em></p>
+                                    <div class="block">
+                                        <div class="starbox small ghosting"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="add">
+                                    <button class="btn btn-danger my-cart-btn my-cart-b" data-id="20" data-name="50"
+                                            data-summary="summary 20" data-price="199.00" data-quantity="1"
+                                            data-image="images/50.png">Añadir al carrito
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="col-md-3 footer-grid">
+                    <h3>Sobre nosotros</h3>
+                    <p>Somos una tienda de venta de libros enfocada 100%
+                        en facilitar la compra de libros, y fomentar la lectura en todas las
+                        personas que entren al sitio, nuestro compromiso es importante y por eso
+                        trabajamos todos los dias</p>
+                </div>
+                <div class="col-md-3 footer-grid">
+                    <h3>Mi Cuenta</h3>
+                    <ul>
+                        <li><a href="index.html">Login</a></li>
+                        <li><a href="register.html">Registro</a></li>
+                        <li><a href="wishlist.html">Lista de deseos</a></li>
+
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="footer-bottom">
+                    <h2><a href="principal.html"><b>T<br>H<br>E</b>BL BOOK<span>LA MEJOR TIENDA DE LIBROS</span></a>
+                    </h2>
+                    <p class="fo-para">“Un lector vive mil vidas antes de morir. Aquel que nunca lee vive solo una.”</p>
+                    <div class=" address">
+                        <div class="col-md-4 fo-grid1">
+                            <p><i class="fa fa-home" aria-hidden="true"></i>Blvd. Gral. Marcelino García Barragán 1421,
+                                Olímpica, 44430 Guadalajara, Jal.</p>
+                        </div>
+                        <div class="col-md-4 fo-grid1">
+                            <p><i class="fa fa-phone" aria-hidden="true"></i>+52 3317484377 , +52 3338099840</p>
+                        </div>
+                        <div class="col-md-4 fo-grid1">
+                            <p><a href="bryan.nunez2941@alumnos.udg.mx"><i class="fa fa-envelope-o"
+                                                                           aria-hidden="true"></i>bryan.nunez2941@alumnos.udg.mx</a>
+                            </p>
+                            <p><a href="luis.vazquez2941@alumnos.udg.mx"><i class="fa fa-envelope-o"
+                                                                            aria-hidden="true"></i>luis.vazquez2941@alumnos.udg.mx</a>
+                            </p>
+                        </div>
+                        <div class="clearfix"></div>
+
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <p> &copy; 2021 BL BOOK. All Rights Reserved | Design by <a> Luis & Daniel</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- //footer-->
+
+        <!-- smooth scrolling -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                    var defaults = {
+                    containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear'
+                    };
+                */
+                $().UItoTop({easingType: 'easeOutQuart'});
+            });
+        </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        <!-- //smooth scrolling -->
+        <!-- for bootstrap working -->
+        <script src="js/bootstrap.js"></script>
+        <!-- //for bootstrap working -->
+        <script type='text/javascript' src="js/jquery.mycart.js"></script>
+        <script type="text/javascript">
+            $(function () {
+
+                var goToCartIcon = function ($addTocartBtn) {
+                    var $cartIcon = $(".my-cart-icon");
+                    var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({
+                        "position": "fixed",
+                        "z-index": "999"
+                    });
+                    $addTocartBtn.prepend($image);
+                    var position = $cartIcon.position();
+                    $image.animate({
+                        top: position.top,
+                        left: position.left
+                    }, 500, "linear", function () {
+                        $image.remove();
+                    });
+                }
+
+                $('.my-cart-btn').myCart({
+                    classCartIcon: 'my-cart-icon',
+                    classCartBadge: 'my-cart-badge',
+                    affixCartIcon: true,
+                    checkoutCart: function (products) {
+                        $.each(products, function () {
+                            console.log(this);
+                        });
+                    },
+                    clickOnAddToCart: function ($addTocart) {
+                        goToCartIcon($addTocart);
+                    },
+                    getDiscountPrice: function (products) {
+                        var total = 0;
+                        $.each(products, function () {
+                            total += this.quantity * this.price;
+                        });
+                        return total * 1;
+                    }
+                });
+
+            });
+        </script>
+
+        <!-- product -->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/dracula.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Dracula</h3>
+                            <p class="in-para"> Novela de Bram Stoker.</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$195.99</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Drácula es una novela publicada en 1897 por el irlandés Bram Stoker,
+                                quien ha convertido a su protagonista en el vampiro más famoso. Se dice que el escritor
+                                se basó en las conversaciones que mantuvo con un erudito húngaro llamado Arminius
+                                Vámbéry, quien le habló de Vlad Drăculea
+                            </p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="1" data-name="dracula"
+                                        data-summary="summary 1" data-price="195.99" data-quantity="1"
+                                        data-image="images/dracula.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/it.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>It</h3>
+                            <p class="in-para"> Novela de Stephen King.</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$199.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> It (en español, «Eso») es una novela de terror publicada en 1986 por
+                                el escritor estadounidense Stephen King. Cuenta la historia de un grupo de siete niños
+                                que son aterrorizados por un malvado monstruo -al que llaman «Eso»- que es capaz de
+                                cambiar de forma, alimentándose del terror que produce en sus víctimas.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="It"
+                                        data-summary="summary 2" data-price="199.00" data-quantity="1"
+                                        data-image="images/it.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/leyenda.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Soy Leyenda</h3>
+                            <p class="in-para"> Novela de Richard Matheson</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$250.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Robert Neville es el único superviviente de una guerra bacteriológica
+                                que ha asolado el planeta y convertido al resto de la humanidad en vampiros. Su vida se
+                                ha reducido a asesinar el máximo número posible de estos seres sanguinarios durante el
+                                día, y a soportar su asedio cada noche</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3"
+                                        data-name="Soy Leyenda" data-summary="summary 3" data-price="250.00"
+                                        data-quantity="1" data-image="images/leyenda.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/han.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Hannibal</h3>
+                            <p class="in-para"> Novela de Thomas Harris</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$350.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Hannibal es una novela de Thomas Harris, parte de la saga que cuenta
+                                la historia del icónico personaje psicópata Hannibal Lecter. La novela se desarrolla
+                                siete años después de lo sucedido en The Silence of the Lambs y trata sobre el intento
+                                de venganza de una de las víctimas de Hannibal.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4"
+                                        data-name="Hannibal" data-summary="summary 4" data-price="350.00"
+                                        data-quantity="1" data-image="images/han.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/resplandor.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>El Resplandor</h3>
+                            <p class="in-para"> Novela de Stephen King</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$195.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> El libro trata de un joven con muchos problemas, tanto económicos
+                                como personales, y, debido a esto, Jack Torrance (el protagonista) se ve obligado a
+                                aceptar un empleo como cuidador de un hotel durante el invierno junto a su familia.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="5"
+                                        data-name="resplandor" data-summary="summary 5" data-price="195.00"
+                                        data-quantity="1" data-image="images/resplandor.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/resplandor.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>El Exorcista</h3>
+                            <p class="in-para"> Novela de William Peter Blatty</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$250.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> El Exorcista libro es una novela de 1971 escrito por William Peter
+                                Blatty. El libro detalla la posesión demoníaca de Regan MacNeil, de doce años, hija de
+                                una famosa actriz, y el sacerdote psiquiatra que intenta exorcizar al demonio. ... Si
+                                deseas leer otro libro de terror te recomiendo El Martillo de las Brujas.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="6" data-name="exo"
+                                        data-summary="summary 6" data-price="250.00" data-quantity="1"
+                                        data-image="images/exo.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/casa.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>La casa infernal</h3>
+                            <p class="in-para"> Novela de Richard Matheson</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$350.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> En 1940 una expedición de cinco personas se internó en la infame Casa
+                                Belasco para desentrañar los misterios de la que era considerada como la casa más
+                                peligrosa del mundo. Sólo uno de ellos consiguió salir con vida.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="7" data-name="casa"
+                                        data-summary="summary 7" data-price="350.00" data-quantity="1"
+                                        data-image="images/casa.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/asy.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Asylum</h3>
+                            <p class="in-para"> Novela de Madeleine Roux</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$150.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Para Dan Crawford, el programa de verano para alumnos sobresalientes
+                                es una oportunidad única. Sus amigos nunca comprendieron su fascinación por la historia
+                                y la ciencia. Pero en el Colegio Preparatorio New Hampshire, esas preferencias están a
+                                la orden del día. Al llegar al lugar, se encuentra con que la residencia a la que debía
+                                ir ha sido cerrada, por lo cual todos los estudiantes se ven forzados a quedarse en
+                                Brookline, lo que solía ser un hospital psiquiátrico. Cuando Dan y sus nuevos amigos,
+                                Abby y Jordan, comienzan a explorar los pasillos y el sótano oculto del lugar, descubren
+                                secretos escalofriantes sobre lo que realmente ocurría allí. Secretos que los vinculan a
+                                ellos con el oscuro pasado del hospicio.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="8" data-name="asy"
+                                        data-summary="summary 8" data-price="150.00" data-quantity="1"
+                                        data-image="images/asy.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Luissssssssssssssss-->
+
+
+        <!-- product -->
+        <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/amy.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>La esposa del dios del fuego</h3>
+                            <p class="in-para"> Libro de Amy Tan.</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$155.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Durante más de cincuenta años Winnie y Helen ocultaron sus peores
+                                secretos. Pero, cuando Helen está a punto de morir, Winnie decide contarle todo a su
+                                hija Pearl, incluso la terrible verdad que ignora la propia Helen.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="9" data-name="amy"
+                                        data-summary="summary 9" data-price="155.00" data-quantity="1"
+                                        data-image="images/amy.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/silencio.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>El silencio de nuestras palabras</h3>
+                            <p class="in-para"> Libro de Simona Sparaco.</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$170.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> En uno de los pisos Alice se duerme mientras espera que Matthias, su
+                                nuevo amor del que todavía no se ha decidido a hablar a su madre, regrese. Bastien, el
+                                hijo de otra de las vecinas, lleva meses tratando de revelarle algo que podría romperle
+                                el corazón, pero no encuentra el coraje para hacerlo.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="10"
+                                        data-name="silencio" data-summary="summary 10" data-price="170.00"
+                                        data-quantity="1" data-image="images/silencio.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/sueños.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Sueños de papel</h3>
+                            <p class="in-para"> Libro de María Amorós.</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$100.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Una historia cruda y realista sobre los abusos a mujeres en Oriente
+                                Próximo y Medio. ... Zafira narra en su diario la historia de supervivencia de una
+                                prisionera de guerra que tiene como sueño estudiar, pero entre ella y su sueño se
+                                interpondrán muchas dificultades que irá superando.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="11" data-name="sueños"
+                                        data-summary="summary 11" data-price="100.00" data-quantity="1"
+                                        data-image="images/sueños.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/justos.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Los justos</h3>
+                            <p class="in-para"> Libro de Albert Camus</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$350.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Durante la època del zarismo, una celúla dentro del grupo de
+                                socialistas revolucionarios tiene previsto el atentado contra el Gran Duque de Rusia,
+                                Gobernador de Moscú. Surge el dilema entre el fanatismo político de uno y el idealismo
+                                político de otro, más humano, , sobre el fin y los medios.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="12" data-name="justos"
+                                        data-summary="summary 12" data-price="350.00" data-quantity="1"
+                                        data-image="images/justos.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/mundo.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Un mundo feliz</h3>
+                            <p class="in-para"> Novela de Aldous Huxley.</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$150.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> “Un mundo feliz” dibuja una suerte de dictadura perfecta que tendría
+                                la apariencia de democracia, pero sin participación real, sin la menor
+                                representatividad. Una cárcel sin muros donde el panóptico llega a su punto cúlmine y
+                                donde los prisioneros no sueñan ni desean arrancarse</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="13" data-name="mundo"
+                                        data-summary="summary 13" data-price="150.00" data-quantity="1"
+                                        data-image="images/mundo.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/451.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Fahrenheit 451</h3>
+                            <p class="in-para"> Novela de Ray Bradbury.</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$270.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> El libro más emblemático de Bradbury llega a Minotauro Esenciales.
+                                ... Fahrenheit 451: la temperatura a la que el papel se enciende y arde. Guy Montag es
+                                un bombero y el trabajo de un bombero es quemar libros, que están prohibidos porque son
+                                causa de discordia y sufrimiento</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="14" data-name="451"
+                                        data-summary="summary 14" data-price="270.00" data-quantity="1"
+                                        data-image="images/451.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/tiempo.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>La máquina del tiempo</h3>
+                            <p class="in-para"> Novela de H. G. Wells</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$300.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> El autor narra la historia de cómo un científico de finales del siglo
+                                XIX viajó a través del tiempo con la intención de conocer el futuro de la humanidad, se
+                                desplazó hasta el año 802701, pero lejos de encontrar una sociedad en la plenitud de su
+                                desarrollo, ve un mundo en decadencia habitado en su superficie por unos ..</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="15" data-name="tiempo"
+                                        data-summary="summary 15" data-price="300.00" data-quantity="1"
+                                        data-image="images/tiempo.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/marte.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Marte rojo</h3>
+                            <p class="in-para"> Novela de Kim Stanley Robinson</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$350.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Durante eones, las tormentas de arena han barrido el estéril y
+                                desolado paisaje del planeta rojo. Ahora, en el año 2026, cien colonos, cincuenta
+                                mujeres y cincuenta hombres, viajan a Marte para dominar ese clima hosti</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="16" data-name="marte"
+                                        data-summary="summary 16" data-price="350.00" data-quantity="1"
+                                        data-image="images/marte.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/cumbres.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Cumbres borrascosas</h3>
+                            <p class="in-para"> Novela de Emily Brontë .</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$299.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Cumbres borrascosas, una de las novelas inglesas más relevantes del
+                                siglo XIX, narra la épica historia de Catherine y Heathcliff. Situada en los sombríos y
+                                desolados páramos de Yorkshire, constituye una asombrosa visión metafísica del destino,
+                                la obsesión, la pasión y la venganza.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="17"
+                                        data-name="cumbres" data-summary="summary 17" data-price="299.00"
+                                        data-quantity="1" data-image="images/cumbres.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/orgullo.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Orgullo y prejuicio</h3>
+                            <p class="in-para"> Novela de Jane Austen .</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$450.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> La señora Bennet ha criado a sus cinco hijas con el único deseo de
+                                encontrar marido. ... Elizabeth, una de las hijas de los Bennet, empezará una singular
+                                relación con Darcy, uno de los amigos de Bingley, que desencadenará esta historia de
+                                orgullo y prejuicios entre los dos hasta llegar a conocer el verdadero amor</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="18"
+                                        data-name="orgullo" data-summary="summary 18" data-price="450.00"
+                                        data-quantity="1" data-image="images/orgullo.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/estrella.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Bajo la misma estrella</h3>
+                            <p class="in-para"> Novela de John Green</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$200.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> A Hazel y a Gus les gustaría tener vidas más corrientes. Algunos
+                                dirían que no han nacido con estrella, que su mundo es injusto. Hazel y Gus son solo
+                                adolescentes, pero si algo les ha enseñado el cáncer que ambos padecen es que no hay
+                                tiempo para lamentaciones, porque, nos guste o no, solo existe el hoy y el ahora</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="19"
+                                        data-name="estrella" data-summary="summary 19" data-price="200.00"
+                                        data-quantity="1" data-image="images/estrella.png">Añadir a carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="images/50.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Cincuenta sombras de Grey</h3>
+                            <p class="in-para"> Novela de E. L. James</p>
+                            <div class="price_single">
+                                <span class="reducedfrom ">$199.00</span>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <h4 class="quick">SINOPSIS</h4>
+                            <p class="quick_desc"> Cincuenta sombras de Grey, nos es narrada en primera persona por
+                                Anastasia Steele, una estudiante de literatura inglesa. ... El mundo inocente y
+                                enamoradizo de Anastasia se romperá al descubrir que Christian esconde una cara oscura y
+                                sombría, unas inclinaciones sexuales dominadas por el sadismo y la sumisión.</p>
+                            <div class="add-to">
+                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="20" data-name="50"
+                                        data-summary="summary 20" data-price="199.00" data-quantity="1"
+                                        data-image="images/50.png">Añadir al carrito
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
