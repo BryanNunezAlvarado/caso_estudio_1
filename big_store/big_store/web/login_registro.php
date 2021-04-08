@@ -145,6 +145,7 @@ $sqlagregar = "INSERT INTO libros_nuevos(titulo,autor,genero,precio,isbn) values
     }
 
 }
+//Eliminar
 $eliminar = $_POST["eliminar"];
 $eliminar = strtolower($eliminar);
 if(isset($_POST["btneliminar"])){
