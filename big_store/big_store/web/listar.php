@@ -1,7 +1,6 @@
 <?php
-
+    //Conexion
 	$conexion=mysqli_connect('localhost','root','','tienda');
-
  ?>
 <!DOCTYPE html>
 <html>
@@ -62,7 +61,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		});
 		</script>
 <!---//End-rate---->
-
 </head>
 <body>
 <div class="header">
