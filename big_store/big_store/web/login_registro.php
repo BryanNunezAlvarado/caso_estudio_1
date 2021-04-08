@@ -130,7 +130,6 @@ $nrr = mysqli_num_rows($queryr);
 }
 
 
-
 $titulo = $_POST["titulo"];
 $autor = $_POST["autor"];
 $precio = $_POST["precio"];
