@@ -145,6 +145,7 @@ $sqlagregar = "INSERT INTO libros_nuevos(titulo,autor,genero,precio,isbn) values
     echo"Error: ".$sql."<br></br>".mysql_error($conn);
     }
 
+
 }
 
 //Eliminar

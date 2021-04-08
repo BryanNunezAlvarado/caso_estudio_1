@@ -1,5 +1,5 @@
 <?php
-
+    //conexion
 	$conexion=mysqli_connect('localhost','root','','tienda');
 
  ?>
