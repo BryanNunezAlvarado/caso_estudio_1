@@ -8,11 +8,9 @@ $conn = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 if(!$conn){
     die("no hay conexion: ".mysqli_connect_error());
 }
-
 $username = $_POST["Username"];
 $email = $_POST["Email"];
 $pass = $_POST["Password"];
-
 //
 if(isset($_POST["btningresar"])){
 $query = mysqli_query($conn,"SELECT * FROM login WHERE email = '".$email."' and password = '".$pass."'");
