@@ -304,7 +304,7 @@
       showGrandTotal();
       showDiscountPrice();
     });
-    
+
 
     $(document).on('keypress', "." + classProductQuantity, function(evt){
       if(evt.keyCode == 38 || evt.keyCode == 40){
@@ -340,17 +340,11 @@
 
 
   var MyCart = function (target, userOptions) {
-    /*
-    PRIVATE
-    */
     var $target = $(target);
     var options = OptionManager.getOptions(userOptions);
     var $cartIcon = $("." + options.classCartIcon);
     var $cartBadge = $("." + options.classCartBadge);
 
-    /*
-    EVENT
-    */
     $target.click(function(){
       options.clickOnAddToCart($target);
 
@@ -366,14 +360,10 @@
     });
 
   }
-
-
   $.fn.myCart = function (userOptions) {
     loadMyCartEvent(userOptions);
     return $.each(this, function () {
       new MyCart(this, userOptions);
     });
   }
-
-
 })(jQuery);
